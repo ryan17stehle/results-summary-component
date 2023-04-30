@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="outer-container">
+    <div class="inner-container blue">
+      <h3>Your Result</h3>
+      <div class="circle">
+        <h1 class="score">76</h1>
+        <p>of 100</p>
+      </div>
+      <h2>Great!</h2>
+      <p class="results">Your performance exceeds 65% of the people conducting the test here!</p>
+    </div>
+
+    <div class="inner-container second-container">
+      <div class="pill summary">
+        <h3>Summary</h3>
+      </div>
+      <div class="categories">
+        <div class="pill reaction">
+          <div class="flex">
+            <img src="/results-summary-component-main/assets/images/icon-reaction.svg">
+            <h3>Reaction</h3>
+          </div>
+          <p><span class="score">80</span> / 100</p>
+        </div>
+        <div class="pill memory">
+          <div class="flex">
+            <img src="/results-summary-component-main/assets/images/icon-memory.svg">
+            <h3>Memory</h3>
+          </div>
+          <p><span class="score">80</span> / 100</p>
+        </div>
+        <div class="pill verbal">
+          <div class="flex">
+            <img src="/results-summary-component-main/assets/images/icon-verbal.svg">
+            <h3>Verbal</h3>
+          </div>
+          <p><span class="score">80</span> / 100</p>
+        </div>
+        <div class="pill visual">
+          <div class="flex">
+            <img src="/results-summary-component-main/assets/images/icon-visual.svg">
+            <h3>Visual</h3>
+          </div>
+          <p><span class="score">80</span> / 100</p>
+        </div>
+      </div>
+      <div class="pill continue">
+        <h3>Continue</h3>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ryan Stehle</a>.
+  </div>
+  -->
+</body>
+</html>
